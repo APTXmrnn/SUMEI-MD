@@ -4,7 +4,7 @@ const { promisify } = require('util')
 const { join } = require('path')
 
 let confirmation = {}
-let repository = 'fokusdotid/family-md'
+let repository = 'APTXmrnn/SUMEI-MD'
 let branch = 'main'
 
 async function handler(m, { text }) {
