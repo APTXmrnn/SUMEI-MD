@@ -3,8 +3,8 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your numbe
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
 global.kontak = [
-['6281320170984', '𝘼𝙜𝙪𝙯 𝙁𝙖𝙢𝙞𝙡𝙞𝙖', true],
-['6285157436653', '𝙴𝙽𝙹𝙴𝙻𝙰-𝙱𝙾𝚃', true]
+['6289616866270', 'NOVENS', true],
+['6289616866270', 'LORDsumei', true]
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -31,24 +31,25 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'apikeylu',
   'https://hardianto.xyz': 'apikeylu',
   'https://leyscoders-api.herokuapp.com': 'apikeylu'
+  'https://melcanz.com': 'NOVENSxd', 
 }
 
-//global.wm = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝑭𝒐𝒌𝒖𝒔𝑰𝑫'
+//global.wm = 'SUMEI OFFICIAL'
 global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons=========//
 global.dtu = '𝑭𝒐𝒍𝒍𝒐𝒘'
-global.urlnya = "https://www.instagram.com/aguzfamilia"
+global.urlnya = "https://www.instagram.com/sumeigt"
 
 //============= callButtons =============//
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
-global.phn = '+62 813-2017-0984'
+global.phn = '+62 896-1686-6270'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
 global.salah = '_*Salah❌*_'
-global.dikit = "dikit lagi, semangat ya :')"
+global.dikit = "dikit lagi, semangat ya besti :')"
 
 global.multiplier = 100 // The higher, The harder levelup
 
