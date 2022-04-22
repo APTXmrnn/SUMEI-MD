@@ -24,14 +24,14 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://api.xteam.xyz': 'apikeylu',
-  'https://melcanz.com': 'apikeylu',
+  'https://melcanz.com': 'NOVENSxd',
   'https://api.lolhuman.xyz': 'apikeylu',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apikeylu',
   'https://pencarikode.xyz': 'apikeylu',
   'https://hardianto.xyz': 'apikeylu',
   'https://leyscoders-api.herokuapp.com': 'apikeylu'
-  'https://melcanz.com': 'NOVENSxd', 
+
 }
 
 //global.wm = 'SUMEI OFFICIAL'
