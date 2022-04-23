@@ -19,8 +19,7 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
+├ Donasi: https://saweria.co/sumei
 └────
 %readmore`.trim(),
   header: '┌─〔 %category 〕',
