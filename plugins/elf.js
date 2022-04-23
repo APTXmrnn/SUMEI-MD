@@ -6,9 +6,9 @@ let handler = async (m, { conn }) => {
   if (!json.url) throw 'Error!'
   conn.sendFile(m.chat, json.url, '', 'istri gwech ya', m, 0, { thumbnail: Buffer.alloc(0) })
 }
-handler.help = ['waifu']
+handler.help = ['elf']
 handler.tags = ['anime']
-handler.command = /^(waifu)$/i
+handler.command = /^(elf)$/i
 
 handler.limit = true
 
