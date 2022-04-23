@@ -33,7 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'anime', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'UTAMA',
@@ -42,6 +42,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'xp': 'Exp & Limit',
     'sticker': 'Stiker',
     'kerang': 'Kerang Ajaib',
+    'anime': 'Dunia perwibuan',
     'quotes': 'Quotes',
     'group': 'Grup',
     'premium': 'Premium',
@@ -72,6 +73,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
+  }
+  if (teks == 'anime') tags = {
+    'anime': 'dunia perwibuan'
   }
   if (teks == 'quotes') tags = {
     'quotes': 'Quotes'
@@ -194,6 +198,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           { title: 'XP', rowId: `${_p}? xp` },
           { title: 'Stiker', rowId: `${_p}? stiker` },
           { title: 'Kerang Ajaib', rowId: `${_p}? kerangajaib` },
+          { title: 'Dunia perwibuan', rowId: `${_p}? anime` },
           { title: 'Quotes', rowId: `${_p}? quotes` },
           { title: 'Grup', rowId: `${_p}? grup` },
           { title: 'Premium', rowId: `${_p}? premium` },
