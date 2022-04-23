@@ -33,7 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'anime', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'anime', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'DEWASA', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'UTAMA',
@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'audio': 'Pengubah Suara',
     'jadibot': 'Jadi Bot',
     'info': 'Info',
-    '': 'Tanpa Kategori',
+    'Dewasa': 'Area dewasa 18+',
   }
   if (teks == 'game') tags = {
     'game': 'Game',
@@ -123,8 +123,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'info') tags = {
     'info': 'Info'
   }
-  if (teks == 'tanpakategori') tags = {
-    '': 'Tanpa Kategori'
+  if (teks == 'Dewasa') tags = {
+    'Dewasa': 'Area dewasa 18+'
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
@@ -214,7 +214,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           { title: 'Pengubah Suara', rowId: `${_p}? audio` },
           { title: 'Jadi Bot', rowId: `${_p}? jadibot` },
           { title: 'Info', rowId: `${_p}? info` },
-          { title: 'Tanpa Kategori', rowId: `${_p}? tanpakategori` },
+          { title: 'Area dewasa 18+', rowId: `${_p}? Dewasa` },
           { title: 'Owner', rowId: `${_p}? owner` },
         ]
       }
