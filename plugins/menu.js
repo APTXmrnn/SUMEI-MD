@@ -43,6 +43,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'sticker': 'Stiker',
     'kerang': 'Kerang Ajaib',
     'anime': 'Dunia perwibuan',
+    'cecan': 'Asupan Cecan',
     'quotes': 'Quotes',
     'group': 'Grup',
     'premium': 'Premium',
@@ -75,7 +76,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'kerang': 'Kerang Ajaib'
   }
   if (teks == 'anime') tags = {
-    'anime': 'dunia perwibuan'
+    'anime': 'dunia perwibuan',
+    'cecan': 'Asupan Cecan'
   }
   if (teks == 'quotes') tags = {
     'quotes': 'Quotes'
@@ -198,7 +200,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           { title: 'XP', rowId: `${_p}? xp` },
           { title: 'Stiker', rowId: `${_p}? stiker` },
           { title: 'Kerang Ajaib', rowId: `${_p}? kerangajaib` },
-          { title: 'Dunia perwibuan', rowId: `${_p}? anime` },
+          { title: 'Asupan', rowId: `${_p}? anime` },
           { title: 'Quotes', rowId: `${_p}? quotes` },
           { title: 'Grup', rowId: `${_p}? grup` },
           { title: 'Premium', rowId: `${_p}? premium` },
